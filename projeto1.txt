@@ -1,0 +1,47 @@
+
+		Matheus C.
+
+   Aprendendo VI no terminal
+
+   Invoca-se através do comando: vi <file/nome do arquivo>
+   
+   Para inserir/ editar pressione i ou insert
+   Para interromper a edição pressione ESC
+
+
+     Comandos 
+     
+     :q (sai sem salvar, apenas se não houve alteração)
+     :q! (sai sem salvar)
+     :w (salva o arquivo)
+     :wq (salva e sai)
+     :numero da linha (leva o cursor até a linha respectiva do numero digitado)
+     
+
+     Comandos fora do insert
+
+     x - Função Del
+     r - Substitui o caracter sobre o cursor (pressione r e após pressione a letra que deseja colocar no lugar)
+     u - Desfaz última operação
+     d$ - Apaga do ponto aonde está o cursor até o fim da linha 
+     dd - Apaga/ Recorta a linha 
+     dw - Apaga a palavra onde está o cursor
+     v - Marca uma área de texto (Use as setas)
+     y - Copia bloco marcado com v
+     d - Recorta/ Apaga bloco marcado com v
+     p - Colar após o ponto atual
+     P - Colar antes do ponto atual
+     /palavra - Procura palavra 
+     / + ENTER - Repete a ultima procura
+     R - Aciona o modo substituição/ Permite escrever sobre caracteres já existentes (termina com ESC)
+
+     Comandos cursor
+
+        
+     setas - movem o cursor
+     TAB - Aplica tabulação (espaço grande, 8x a tecla espaço)
+     k - Move para a linha de cima
+     $ - Move para o fim da linha
+     0 - Move para o inicio da linha
+     A - Move para o fim da linha e entra em modo de inserção
+     
